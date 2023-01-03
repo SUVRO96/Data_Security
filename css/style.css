@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background-color: #f9fbfe;
+  font-family: "Lato", sans-serif;
+}
+.first_nav .nav-item a {
+  color: white !important;
+}
+.inner_container .nav .nav-item a {
+  color: black !important;
+  font-weight: 500;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.top_navbar {
+  background-color: #020e4a;
+  width: 100vw;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+}
+
+.nav_container {
+  width: 100vw;
+  height: 100px;
+  background-color: #fff;
+}
+
+.logo_img {
+  height: 70px;
+  width: 500px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.owl-carousel {
+  z-index: 0 !important;
+}
+.inner_container {
+  height: 70px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.inner_container nav {
+  margin-top: 1%;
+}
+
+.img-container > button {
+  padding: 30px;
+  margin: 10px;
+}
+.footer {
+  width: 100vw;
+  height: fit-content;
+  padding: 50px;
+  background-color: #020e4a;
+}
+
+.footer_head {
+  font-size: 25px;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.footer_logo {
+  width: 40%;
+  height: 70px;
+}
+.footer_bsi_logo {
+  height: 70px;
+}
+.address {
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+}
+.student-cards {
+  width: 300px;
+  margin: 10px;
+}
+.student-cards-content {
+  background-color: white;
+  margin: 10px;
+  border: 10px solid white;
+  border-radius: 5px;
+}
+
+.img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  left: 25%;
+}
+.img-container img {
+  background: white;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+.card-banner {
+  width: 100%;
+  height: 100px;
+}
+
+.name {
+  margin: 10px;
+  background-color: #fff;
+}
+
+.card-name {
+  color: black;
+}
+
+.name .profession {
+  color: #0d6efd;
+  margin: 0;
+  padding: 0;
+}
+
+.name p {
+  color: #cbcbcb;
+  margin: 0;
+  padding: 0;
+}
+
+.headings {
+  margin: 0 15px;
+}
+
+.Webinar-card-banner {
+  background-image: url("../Assets/Mask\ Group\ 2.png");
+  width: 600px;
+  height: 100%;
+  padding: 20px;
+  /* margin: 10px; */
+  line-height: 40px;
+}
+.Webinar-content {
+  display: flex;
+  border-radius: 5px;
+  width: fit-content;
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 0px;
+}
+.Webinar-card-info {
+  width: 400px;
+  height: 100%;
+  padding: 10px;
+}
+.Webinar-section {
+  height: fit-content;
+  width: 100%;
+}
+.tutor_prof {
+  background-color: #ffb701;
+  width: fit-content;
+  padding: 0 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.webiner_tutor {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+.webinar_topic {
+  margin-top: 10px;
+  font-size: 40px;
+  color: #ffb701;
+}
+.webinar_Sch {
+  display: flex;
+  justify-content: stretch;
+  justify-content: space-between;
+  color: whitesmoke;
+  opacity: 0.5;
+}
+
+.webner_host {
+  font-size: 30px;
+  white-space: 12px;
+  color: white;
+}
+
+.info_heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.info_btn {
+  display: flex;
+  flex-direction: row;
+}
+
+button:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.review_content {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 400px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+.student_image_container {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.student_img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.student_info .student_name {
+  font-size: 20px;
+}
+.student_info .student_pro {
+  font-weight: normal;
+  font-family: "Lato", sans-serif;
+}
+
+.ratings {
+  color: #ffb701;
+  padding-bottom: 10px;
+}
+.base {
+  height: 15px;
+  background-color: violet;
+  width: 100%;
+  border-radius: 0 0 5px 5px;
+}
+
+.course_content {
+  width: 300px;
+  padding: 15px;
+  margin: 10px;
+  height: fit-content;
+}
+.course_banner {
+  background-image: url("../Assets/Thumbnail@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.course_details {
+  padding: 5px 15px;
+  font-size: 11px;
+  background-color: #fff;
+}
+
+.course_info {
+  font-weight: 700;
+}
+.course_time {
+  color: #cbcbcb;
+  margin-top: 10px;
+}
+
+.card {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+.card img {
+  border-radius: 50%;
+}
